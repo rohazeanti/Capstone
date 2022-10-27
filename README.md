@@ -76,7 +76,7 @@ The model can be deployed in Streamlit. The source file can be found [here](fake
 
 
 ### Data Sources
-We will use the University of Victoria’s ISOT Fake News Dataset. It contains more than 12,600 real news articles from Reuters.com and more than 12,600 fake news articles that were flagged by Politifact (a fact-checking organization in the United States). The dataset contains articles relating to a variety of topics, though mostly political news and world news. More information on the dataset can be found [here](ISOT_Fake_News_Dataset_ReadMe)
+We will use the University of Victoria’s ISOT Fake News Dataset. It contains more than 12,600 real news articles from Reuters.com and more than 12,600 fake news articles that were flagged by Politifact (a fact-checking organization in the United States). The dataset contains articles relating to a variety of topics, though mostly political news and world news. More information on the dataset can be found [here](ISOT_Fake_News_Dataset_ReadMe.pdf)
 
 [Fake News Dataset](./News%20_dataset/Fake.csv)
 
