@@ -70,15 +70,17 @@ Metrics used when evaluating the performance of the model.
 ![tfidf_cm](https://media.git.generalassemb.ly/user/43213/files/78c0311b-694d-42e1-833d-b4fc03e1b3d1)
 
 
-Based on the metrics listed, it appears that Logistic Regression with Tf-IDF is the best amongst others despite falling behind AdaBoost Classifier. It has a precision score 0f 0.976 with execution time of 38 minutes. Whereas for AdaBoost Classifier, it has a precision score of 0.984 with executing time of 2 hours 15 mins which is about 4-5 times longer! The execution time is the deal breaker for me when deciding the better model. Hence, I choose Logistic Regression over AdaBoost for its efficiency with minimal difference in performance. 
+Based on the metrics listed, it appears that Logistic Regression with Tf-IDF is the best amongst others despite falling behind AdaBoost Classifier. The deal breaker in selecting Logistic Regression is the amount of time required to execute the model. It is 5 times faster than AdaBoost Classifier with minimal difference in performance. 
 
 The model can be deployed in Streamlit. The source file can be found [here](fakenews.py)
 
-### Data Sources
-We will use the University of Victoria’s ISOT Fake News Dataset. It contains more than 12,600 real news articles from Reuters.com and more than 12,600 fake news articles that were flagged by Politifact (a fact-checking organization in the United States). The dataset contains articles relating to a variety of topics, though mostly political news and world news. More information on the dataset can be found here[here](ISOT_Fake_News_Dataset_ReadMe)
 
-[Fake News Dataset](./News_dataset/Fake.csv)
-[Real News Dataset](./News_dataset/Real.csv)
+### Data Sources
+We will use the University of Victoria’s ISOT Fake News Dataset. It contains more than 12,600 real news articles from Reuters.com and more than 12,600 fake news articles that were flagged by Politifact (a fact-checking organization in the United States). The dataset contains articles relating to a variety of topics, though mostly political news and world news. More information on the dataset can be found [here](ISOT_Fake_News_Dataset_ReadMe)
+
+[Fake News Dataset](./News%20_dataset/Fake.csv)
+
+[Real News Dataset](./News%20_dataset/Real.csv)
 
 ### Data Dictionary
 There are 4 columns in each of the dataset.
@@ -101,6 +103,7 @@ Conclusion:
 Government are now taking measures ensuring its citizens consume legitimate news. (POFMA, Education)
 - Even though there are other models that performed better, I stick with Logistic Regression simply due to its efficiency.
 - Collecting the data once isn’t going to cut it given how quickly information spreads in today’s connected world and the number of articles being churned out.
+
 
 Recommendation:
 - This system is suitable for use by members of public as this group of people consume news
