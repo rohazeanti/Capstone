@@ -102,7 +102,6 @@ Government are now taking measures ensuring its citizens consume legitimate news
 - Even though there are other models that performed better, I stick with Logistic Regression simply due to its efficiency.
 - Collecting the data once isn’t going to cut it given how quickly information spreads in today’s connected world and the number of articles being churned out.
 
-
 Recommendation:
 - This system is suitable for use by members of public as this group of people consume news
 - This system is also suitable for journalist as they are mainly responsible for disemminating news
